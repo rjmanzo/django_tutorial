@@ -1,0 +1,9 @@
+Nota
+
+Tendrá que evitar darle nombres a sus proyectos que sean iguales a los de otros componentes integrados de Python o Django. En particular, esto quiere decir que debe evitar usar nombres como django (que entrará en conflicto con Django mismo) o “prueba” (que entrará en conflicto con un paquete interno de Python).
+
+¿Dónde debería estar este código?
+
+Si su experiencia previa es con el PHP de siempre (sin haber usado frameworks modernos) probablemente esté acostumbrado a ubicar el código en la raíz del documento del servidor Web (en un lugar como /var/www). Con Django esto no es así. No es buena idea poner ningún código Python en la raíz del documento del servidor Web porque existe la posibilidad de que otras personas puedan ver su código en la Web. Eso no es bueno en términos de seguridad.
+
+Introduzca su código en algún directorio fuera del elemento raíz del documento, como por ejemplo: archivo: /home/mycode.
